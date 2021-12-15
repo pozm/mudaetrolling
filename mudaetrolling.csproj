@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+      <UserSecretsId>c5f17b27-2cf3-4dfd-8340-c4fd4620f027</UserSecretsId>
+  </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="Anarchy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\fork\Anarchy\Anarchy\bin\Release\net5.0\linux-x64\Anarchy.dll</HintPath>
+      </Reference>
+      <Reference Include="Leaf.xNet, Version=5.2.10.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\fork\Anarchy\Anarchy\bin\Release\net5.0\publish\Leaf.xNet.dll</HintPath>
+      </Reference>
+      <Reference Include="Microsoft.Win32.SystemEvents, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+        <HintPath>..\..\fork\Anarchy\Anarchy\bin\Release\net5.0\publish\Microsoft.Win32.SystemEvents.dll</HintPath>
+      </Reference>
+      <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
+        <HintPath>..\..\fork\Anarchy\Anarchy\bin\Release\net5.0\publish\Newtonsoft.Json.dll</HintPath>
+      </Reference>
+      <Reference Include="System.Drawing.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+        <HintPath>..\..\fork\Anarchy\Anarchy\bin\Release\net5.0\publish\System.Drawing.Common.dll</HintPath>
+      </Reference>
+      <Reference Include="websocket-sharp-core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\fork\Anarchy\Anarchy\bin\Release\net5.0\publish\websocket-sharp-core.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Humanizer.Core" Version="2.11.10" />
+    <PackageReference Include="Humanizer.Core.uk" Version="2.11.10" />
+    <PackageReference Include="Microsoft.Database.Collections.Generic" Version="2.0.3" />
+  </ItemGroup>
+
+</Project>
